@@ -2,7 +2,8 @@
 
 ## 한번하는 작업
 
-1. fork 버튼을 눌러 저장소를 fork합니다.
+1. 다음 그림의 fork 버튼을 눌러 저장소를 fork합니다.
+   ![git-tutorial0](https://user-images.githubusercontent.com/58525009/116971219-32d8d180-acf4-11eb-9dbe-f875da8da55d.png)
 
 2. 원격 저장소를 가져옵니다.
 
@@ -83,8 +84,10 @@ git push origin <branch 이름>
 ```
 
 6. pull request 합니다.  
+   ![git-tutorial1](https://user-images.githubusercontent.com/58525009/116971288-4be18280-acf4-11eb-8138-cace928ad950.png)  
    fork된 내 저장소에서 Compare & request를 누릅니다.
 
+   ![git-tutorial2](https://user-images.githubusercontent.com/58525009/116971349-64519d00-acf4-11eb-8eda-50d816e75c4e.png)  
    내용을 작성하고 Create pull request를 누릅니다.
 
 7. merge하기전 다음 두 가지를 체크합니다.
@@ -107,8 +110,9 @@ git rebase upstream/main
 merge하기 전에 한번 더 최신상태로 변경합니다.
 
 8. merge합니다.  
+   ![git-tutorial3](https://user-images.githubusercontent.com/58525009/116971410-79c6c700-acf4-11eb-8412-b87ce0ca470a.png)  
    공용 원격 저장소(WeTube-project의 git-tutorial)의 Pull requests탭에서  
-   Merge pull request를 누릅니다.
+    Merge pull request를 누릅니다.
 
 9. fork된 내 저장소의 현재 branch를 main에 merge합니다.
 
@@ -135,3 +139,8 @@ merge합니다.
    git fetch upstream main
    git rebase upstream/main
    ```
+
+## 실습해보기
+
+실습이 필요하다면 다음 줄에 이름 혹은 깃허브 username을 작성하여  
+Pull Requset를 보내 Merge해 봅니다.
